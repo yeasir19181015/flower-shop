@@ -58,4 +58,86 @@ p.banner-description {
     font-weight: 700;
     padding: 15px 35px;
     margin-left: 50px;
+    border: 0;
+}
+
+/* main section css */
+
+.flower {
+    display: block;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.flower-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.flower-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.flower-info-container {
+    display: flex;
+}
+
+.flower-info1 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    background-image: url('../Flower Asset/pngwing\ 6.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-left: 100px;
+    /* gap: 100px; */
+    /* padding-left: 100px; */
+}
+.pic-name{
+    display: flex;
+}
+.p1{
+    margin-left: 100px;
+}
+.p2{
+    margin-left: 100px;
+}
+.p3{
+    margin-left: 100px;
+}
+
+.flower-info2 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    background-image: url('../Flower Asset/pngwing\ 5.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-left: 100px;
+
+}
+
+.flower-info3 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    background-image: url('../Flower Asset/pngwing\ 7.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-left: 100px;
 }
